@@ -1,26 +1,96 @@
-
-
-
-
+/* Default text */
 p {
-  margin-top: 1px;
+    /* MAJOR Need 1 em == 14px */
+    margin: 4px 0 8px; /* MAJOR Currently has extra height, big gaps */
 }
+
+
+/* Headers */
+h1 {
+    margin: 12px 0 8px;
+    font-size: 1.5em;
+    line-height: 1.4; /* MAJOR 1) Extra height now. 2) How to set my own? This syntax doesn't work. */
+}
+
+h2 {
+    margin: 12px 0 8px;
+    font-size: 1.3em;
+}
+
+h3 {
+    margin: 8px 0;
+    font-size: 1.1em;
+}
+
+h4 {
+    margin: 8px 0;
+    font-size: 1em;
+}
+
+h5 {
+    margin: 8px 0 4px;
+    font-size: 0.85em;
+    text-transform: uppercase; /* Is this possible? */
+}
+
+h6 {
+    margin: 8px 0 4px;
+    font-size: 0.85em;
+    text-transform: uppercase;
+    opacity: 0.5; /* Is this possible? */
+}
+
+
+/*Lists */
+ul, ol {
+    margin-top: 4px;
+    margin-bottom: 12px;
+    padding: 0;
+}
+
+ul ul, ol ol, ul ol, ol ul { /* Not sure this is right */
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 16px;
+}
+
+li {
+    margin-top: 4px; /* Change for vert space between list items */
+    margin-bottom: 0;
+}
+
+
+/* Horizontal separator */
+
+hr { /* MAJOR Styles don't work at all */
+    color:red;
+    background-color:red;
+    border-color: red;
+    display: inline-block;
+    border: 0;
+    height: 1px;
+    margin: 8px 0;
+}
+
+
+/* Original css from source file */
+
 blockquote {
-  padding-left: 10px;
-  border-left-color: #c9ccd6;
-  border-left-style: solid;
-  border-left-width: 2px;
-  margin-top: 1px;
+    padding-left: 10px;
+    border-left-color: #4e5157;
+    border-left-style: solid;
+    border-left-width: 2px;
+    margin-top: 1px;
 }
 blockquote p {
-  padding-left: -10px;
-  border-left-color: border-color;
-  border-left-style: none;
-  border-left-width: 0px;
+    padding-left: -10px;
+    border-left-color: border-color;
+    border-left-style: none;
+    border-left-width: 0px;
 }
 .no_underline {
-  text-decoration: none;
+    text-decoration: none;
 }
 .user-del {
-  text-decoration: line-through;
+    text-decoration: line-through;
 }

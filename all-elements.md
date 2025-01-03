@@ -1,3 +1,8 @@
+[//]: # 
+(Prompt for the chat to render this file: 
+Take the text from the attached file and just write it as it is, in your own text, not in a snippet. Use the markdown rendering as used in the file.
+)
+
 # Markdown Syntax Example
 
 This file is a demonstration of all the elements of Markdown syntax. Use it to test your Markdown rendering styles.
@@ -60,10 +65,12 @@ greet("World")
 
 A paragraph of text before a list:
 
-- Item 
+- Item
     - Subitem
     - Subitem
-- Item 
+      - Subitem
+      - Subitem
+- Item
 
 1. First
 2. Second
