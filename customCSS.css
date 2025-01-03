@@ -1,0 +1,26 @@
+
+
+
+
+p {
+  margin-top: 1px;
+}
+blockquote {
+  padding-left: 10px;
+  border-left-color: #c9ccd6;
+  border-left-style: solid;
+  border-left-width: 2px;
+  margin-top: 1px;
+}
+blockquote p {
+  padding-left: -10px;
+  border-left-color: border-color;
+  border-left-style: none;
+  border-left-width: 0px;
+}
+.no_underline {
+  text-decoration: none;
+}
+.user-del {
+  text-decoration: line-through;
+}
