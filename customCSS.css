@@ -1,7 +1,7 @@
 /* Default text */
 p {
     /* MAJOR Need 1 em == 14px */
-    margin: 4px 0 8px; /* MAJOR Currently has extra height, big gaps */
+    margin: 4px 0 8px; /* MAJOR Currently has extra bottom margin. Hardcoded? */
 }
 
 
@@ -48,9 +48,12 @@ ul, ol {
     padding: 0;
 }
 
-ul ul, ol ol, ul ol, ol ul { /* Not sure this is right */
+ul ul, ol ol, ul ol, ol ul, ol p, ul p { /* Not sure this is right */
     margin-top: 0;
     margin-bottom: 0;
+}
+
+ul ul, ol ol, ul ol, ol ul { /* Not sure this is right */
     margin-left: 16px;
 }
 
