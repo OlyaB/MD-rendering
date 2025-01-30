@@ -7,37 +7,41 @@ p {
 
 /* Headers */
 h1 {
-    margin: 12px 0 8px;
-    font-size: 1.5em;
-    line-height: 1.4; /* MAJOR 1) Extra height now. 2) How to set my own? This syntax doesn't work. */
+    margin: 16px 0 12px;
+    font-size: 21px;
+    font-weight: bold;
 }
 
 h2 {
-    margin: 12px 0 8px;
-    font-size: 1.3em;
+    margin: 16px 0 12px;
+    font-size: 18px;
+    font-weight: bold;
 }
 
 h3 {
-    margin: 8px 0;
-    font-size: 1.1em;
+    margin: 12px 0;
+    font-size: 15px;
+    font-weight: bold;
 }
 
 h4 {
-    margin: 8px 0;
-    font-size: 1em;
+    margin: 11px 0;
+    font-size: 14px;
+    font-weight: bold;
 }
 
 h5 {
-    margin: 8px 0 4px;
-    font-size: 0.85em;
-    text-transform: uppercase; /* Is this possible? */
+    margin: 11px 0 7px;
+    font-size: 12px;
+    letter-spacing: 5px;
+    font-weight: bold;
 }
 
 h6 {
-    margin: 8px 0 4px;
-    font-size: 0.85em;
-    text-transform: uppercase;
-    opacity: 0.5; /* Is this possible? */
+    margin: 11px 0 7px;
+    font-size: 12px;
+    letter-spacing: 1px;
+    color:#97999D;
 }
 
 
@@ -58,7 +62,7 @@ ul ul, ol ol, ul ol, ol ul { /* Not sure this is right */
 }
 
 li {
-    margin-top: 4px; /* Change for vert space between list items */
+    margin-top: 6px; /* Change for vert space between list items */
     margin-bottom: 0;
 }
 
